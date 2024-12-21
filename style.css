@@ -1,0 +1,27 @@
+.Nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.Nav div{
+    margin-left: 100px;
+    border: red 2px solid;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: .3s ease-in-out;
+}
+.Nav div a{
+    color: red;
+    text-decoration: none;
+}
+.Nav div:hover{
+    background-color: red;
+    color: white;
+    scale:1.2;
+    box-shadow: red 0 0 20px;
+    transform:translateY(-3px);
+
+}
+.Nav div a:hover{
+    color: white;
+}
