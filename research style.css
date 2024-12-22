@@ -82,52 +82,89 @@
     margin-top: 5px;
 }
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.slideshow-container {
+  position: relative;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.mySlides {
+  float: right;
+    margin-right: 100px;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
   
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .slideshow-container {
-    position: relative;
-    max-width: 1000px;
-    margin: auto;
-  }
-  
-  .mySlides {
-    display: none;
-  }
-  
-  img {
-    vertical-align: middle;
-  }
-  
-  /* Add animation for fade effect */
-  .fade {
-    animation-name: fade;
-    animation-duration: 3s;
-    animation-timing-function: ease-in-out;
-  }
-  
-  @keyframes fade {
-    from { opacity: 0.4 }
-    to { opacity: 1 }
-  }
-  
-  /* Slideshow container automatic transitions */
-  .slideshow-container {
-    animation: slideshow 12s infinite;
-  }
-  
-  @keyframes slideshow {
-    0% { display: block; }
-    33.33% { display: none; }
-    66.66% { display: block; }
-    100% { display: none; }
-  }
-  .p{
-      font-size=80px;
-  }
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Add animation for fade effect */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Dots/bullets/indicators */
+.dots-container {
+  text-align: center;
+  padding: 10px;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  transition: background-color 0.6s ease;
+  float: right;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
