@@ -16,7 +16,7 @@
     display: inline;
 }
 .Nav li n1,n2,n4{
-    color: white;
+    color: red;
     text-decoration: none;
 }
 .Nav li:hover{
@@ -35,19 +35,8 @@
   transform:translateY(-3px);
 
 }
-.n2{
-  color: white;
-}
 .Nav li a:hover{
     color: white;
-}
-.middle img{
-    float: right;
-    margin-right: 200px;
-    width: 400px;
-    height: 300px;
-    display: flex;
-    align-items: center;
 }
 .inf{
     margin-left: 100px;
