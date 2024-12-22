@@ -128,4 +128,6 @@
     66.66% { display: block; }
     100% { display: none; }
   }
-  
+  .p{
+      font-size=40px;
+  }
