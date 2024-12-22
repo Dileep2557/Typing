@@ -4,6 +4,9 @@
     margin-top: 50px;
     margin-bottom: 30px;
 }
+.n2{
+  color: white;
+}
 .Nav li{
     margin-left: 100px;
     border: red 2px solid;
@@ -12,7 +15,7 @@
     transition: .3s ease-in-out;
     display: inline;
 }
-.Nav li a{
+.Nav li n1,n3,n4{
     color: red;
     text-decoration: none;
 }
@@ -23,6 +26,17 @@
     box-shadow: red 0 0 20px;
     transform:translateY(-3px);
 
+}
+.N2{
+  background-color: red;
+  color: white;
+  scale:1.2;
+  box-shadow: red 0 0 20px;
+  transform:translateY(-3px);
+
+}
+.n2{
+  color: white;
 }
 .Nav li a:hover{
     color: white;
@@ -36,7 +50,6 @@
     align-items: center;
 }
 .inf{
-    margin-top: 100px;
     margin-left: 100px;
     align-items: flex-start;
     justify-content: space-between;
@@ -167,4 +180,9 @@ img {
 
 .active, .dot:hover {
   background-color: #717171;
+}
+.para{
+  height: 200px;
+  width: 80%;
+  padding-left: 100px;
 }

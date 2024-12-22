@@ -10,14 +10,14 @@
 <nav>
     <div class="Nav">
         <ul>
-    <li class="N1"><a href="index.html">Home</a></li>
-    <li class="N2"><a href="admission.html">Admission</a></li>
-    <li class="N3"><a href="research.html">Research</a></li>
-    <li class="N4"><a href="contact_us.html">Contact Us</a></li>
+    <li class="N1"><a class="n1" href="index.html">Home</a></li>
+    <li class="N2"><a class="n2" href="admission.html">Admission</a></li>
+    <li class="N3"><a class="n3" href="research.html">Research</a></li>
+    <li class="N4"><a class="n4" href="contact_us.html">Contact Us</a></li>
 </ul>
     </div>
 </nav>
-<div>
+<div class="container">
   <div class="slideshow-container">
     <!-- Slide 1 -->
     <div class="mySlides fade">
@@ -37,26 +37,24 @@
     <!-- Next and Previous Buttons -->
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
-  </div>
-
-  <!-- Dots to indicate current slide -->
+      <!-- Dots to indicate current slide -->
   <div class="dots-container" style="text-align:center">
     <span class="dot" onclick="currentSlide(1)"></span>
     <span class="dot" onclick="currentSlide(2)"></span>
     <span class="dot" onclick="currentSlide(3)"></span>
   </div>
-
-  <script src="script.js"></script>
-
+  </div>
     <div class="inf">
-        <h2>Encourages, challenges, you to be inquisitive</h2><br>
+        <h2 style="font-size: 45px;">Encourages, challenges, you to be inquisitive</h2><br>
         <P>A strong scientific spirit and commitment to innovation drive faculty and students at VFSTR University.</P>
     </div>
-   </div>
+  </div>
 </div>
 <section class="Overview">
     <h3>Overview</h3>
+    <div class="para">
     <p>At VFSTR, a sound scientific temperament and a relentless pursuit of continuous innovation drive both faculty and students to engage in cutting-edge research. This fosters an investigative spirit among undergraduate students, encouraging them to take on challenging projects. To support and promote these research activities, the institute has a dedicated Research and Development team, led by a dean and assisted by two joint deans, one associate dean and one assistant dean. They look after the Ph.D. programs and manage research projects funded by prominent external agencies such as the Department of Science and Technology (DST), University Grants Commission (UGC), Council of Scientific and Industrial Research (CSIR), All India Council for Technical Education (AICTE), Indian Space Research Organisation (ISRO), and others.</p>
+  </div>
     <div class="stats">
         <div class="stat-box">34,519<br><span>CITATIONS 2024</span></div>
         <div class="stat-box">60<br><span>H-INDEX 2024 (Scopus)</span></div>
@@ -65,6 +63,7 @@
         <div class="stat-box">200+<br><span>PATENTS PUBLISHED</span></div>
     </div>
 </section>
+<script src="script.js"></script>
     
 </body>
 </html>
