@@ -15,7 +15,7 @@
     transition: .3s ease-in-out;
     display: inline;
 }
-.Nav li n1,n2,n4{
+.n1,.n2,.n4{
     color: red;
     text-decoration: none;
 }
