@@ -38,3 +38,23 @@
 .Nav li a:hover{
     color: white;
 }
+.dc{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.d1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1000px;
+}
+.d2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.po1,.po2,.po3{
+    border:2px red solid; 
+    width: 300px;
+}
