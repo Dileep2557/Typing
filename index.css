@@ -1,0 +1,117 @@
+.Nav{
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.n1{
+  color: white;
+  text-decoration: none;
+
+}
+.Nav li{
+    margin-left: 100px;
+    border: red 2px solid;
+    border-radius: 20px;
+    padding: 5px 10px;
+    transition: .3s ease-in-out;
+    display: inline;
+}
+.n3,.n2,.n4{
+    color: red;
+    text-decoration: none;
+}
+.Nav li:hover{
+    background-color: red;
+    color: white;
+    
+    box-shadow: red 0 0 20px;
+    transform:translateY(-3px);
+
+}
+.N1{
+    background-color: red;
+    color: white;
+    scale:1.2;
+    box-shadow: red 0 0 20px;
+    transform:translateY(-3px);
+  
+}
+.Nav li a:hover{
+    color: white;
+}
+.dc{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin:0px 50px;
+}
+.d1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px;
+}
+.d2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.po{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.po1,.po2,.po3{
+    border:2px red solid; 
+    width: 300px;
+    height: 150px;
+    transition: .3s ease-in-out;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.po2{
+    border-radius: 400px;
+}
+.po1:hover,.po2:hover,.po3:hover{
+    box-shadow: red 0 0 10px;
+    scale: 1.02;
+}
+.d3{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.d3_1,.d3_2,.d3_3,.d3_4{
+    width: 200px;
+    height: 500px;
+
+
+}
+.d3_2,.d3_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.d3_2_1,.d3_2_2,.d3_3_1,.d3_3_2{
+    border: solid 2px red;
+    width: 200px;
+    height: 200px; 
+}
+.d3_1{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.d3_1 img{
+    height: 100%;
+    
+    
+    
+}
