@@ -45,6 +45,75 @@
     justify-content: center;
     align-items: center;
 }
+/*division 1*/
+.d1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+}
+.d1_1,.d1_2{
+    height: 400px;
+    width: 400px;
+}
+.d1_2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.d1_1_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:start;
+    height: 200px;
+}
+.d1_1_2 button{
+    height: 40px;
+    width: 200px;
+    border-radius: 200px;
+    border: red 2px solid;  
+    color: red;
+    background-color: white;
+    transition: .3s ease-out;
+}
+.d1_1_2 button:hover{
+    background-color: red;
+    color: white;
+    scale: 1.2;
+    box-shadow: red 0 0 10px;
+    transform: translatex(20px) translatey(-5px) ;
+   
+}
+/*divvision 2*/
+.d2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.po{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.po1,.po2,.po3{
+    border:2px red solid; 
+    width: 300px;
+    height: 150px;
+    transition: .3s ease-in-out;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.po2{
+    border-radius: 400px;
+}
+.po1:hover,.po2:hover,.po3:hover{
+    box-shadow: red 0 0 10px;
+    scale: 1.02;
+}
 /*division 3 */
 .d3{
     display: flex;
