@@ -77,6 +77,7 @@
     color: red;
     background-color: white;
     transition: .3s ease-out;
+    cursor: pointer;
 }
 .d1_1_2 button:hover{
     background-color: red;
