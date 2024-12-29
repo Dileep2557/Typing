@@ -39,3 +39,204 @@
 .Nav li a:hover{
     color: white;
 }
+.main{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1271px;
+}
+.d1{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 40%;
+    margin-left: 40px;
+}
+.d1 h1{
+    font-size: 70px;
+}
+.d1 img{
+    width: 450px;
+}
+.d1 p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    width: 100%;
+    margin-top: 40px;
+    color: black;
+
+}
+.d2{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 37%;
+    margin-left: 40px;
+    
+}
+.d2 img{
+    
+    object-fit: cover;
+    object-position: center;
+    width: 110%;
+    margin-left: -5%;
+    height: 100%;
+}
+.d3{
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    width: 37%;
+    margin-left: 40px;
+}
+.d3 img{
+    width: 350px;
+}
+.d3-1{
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 70px;
+}
+.d3-1{
+    width: 200px;
+    height: 500px;
+}
+.d3-1-1{
+    border: solid 2px brown;
+    width: 300px;
+    height: 300px; 
+}
+.d3-1-1 h1{
+    font-size: 70px;
+    text-align: center;
+}
+.d3-1-1 h2{
+    font-size: 20px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+footer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    background-color:lightgray;
+}
+.div1{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+}
+.contactus{
+    margin-top: 20px;
+    font-size: 35px;
+    color: black;
+    font-weight: bold;
+}
+.p{
+    width: 85%;
+    margin-top: 5px;
+}
+.dd1{
+    align-self: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+}
+.img1{
+    height: 95px;
+    width: 95px;
+    justify-items: flex-start;
+    margin-top: 30px;
+
+}
+.row{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.div2{
+    width: 90%;
+    height: auto;
+    margin-top: 60px;
+    padding-bottom: 20px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 90px;
+    margin-right: 50px;
+}
+.p2{
+    margin-left: 60px;
+    justify-content:flex-start;
+    font-size: 20px;
+}
+.a{
+    text-decoration: none;
+    color: brown;
+    
+}
+.footer-11{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    margin-top: 50px;
+}
+
+.title-1{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 150px;
+    gap: 100px;
+    margin-bottom: 70px;
+    font-size: 40px;
+    align-self: stretch;
+}
+.title-2{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+    display: inline-flex;
+    margin-left: 50px;
+    width: 100%;
+}
+.title-2-2{
+    color: black;
+    font-size: 16px;
+    font-family: Familjen Grotesk;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.title-2-2-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    display: flex;
+    gap: 12px;
+}
+.ancertag{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+.ancertag:hover{
+    color: brown;
+}
