@@ -111,7 +111,50 @@
 }
 .d3_1 img{
     height: 100%;
+}
+.d3_2 div,.d3_3 div{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+
+}
+.d3_2 div:hover,.d3_3 div:hover{
+    background-color: red;
+    color: white;
+}
+.d3_2 div h2,.d3_3 div h2{
+    font-size: 20px;
+    margin:0px 20px;
     
+}
+.d3_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.d3_4_1{
+    height: 100px;
+
+}
+.d3_4_2{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    overflow: hidden;
     
-    
+}
+.d3_4_3 button{
+    border-radius: 200px;
+    width: 150px;
+    height: 50px;
+    background-color: orangered;
+    color: white;
+    border: solid 2px red;
+}
+.d3_4_3 button:hover{
+    background-color: red;
+    color: white;
+    scale:1.02;
+    box-shadow: red 0 0 20px;
 }
