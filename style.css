@@ -1,0 +1,22 @@
+.dl{
+background-color: black;
+color: white;
+border-radius: 50px;
+border: solid white 1px;
+width: 100px;
+height: 30px;
+margin-top: 30px;
+}
+.ld{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border: solid rgb(0, 0, 0) 1px;
+    width: 100px;
+height: 30px;
+margin-top: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}

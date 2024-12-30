@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     <title>Home</title>
 </head>
 <body>
-<nav>
+<nav class="nav">
     <div class="Nav">
         <ul>
     <li class="N1"><a class="n1" href="index.html">Home</a></li>
@@ -16,6 +17,22 @@
     <li class="N4"><a class="n4" href="contact_us.html">Contact Us</a></li>
 </ul>
     </div>
+    <div>
+        <button class="dl" onclick="darkMode()"> Dark mode</button>
+        <button class="ld" onclick="lightMode()">Light mode</button>
+      </div>
+      <script>
+        function darkMode(){
+          let element=document.body;
+          element.style.color="white"
+          element.style.backgroundColor="black"
+        }
+        function lightMode(){
+          let element=document.body;
+          element.style.color="black"
+          element.style.backgroundColor="white"
+        }
+      </script>
 </nav>
 <div class="dc">
     <div class="d1">
