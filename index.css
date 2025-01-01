@@ -52,6 +52,27 @@
     justify-content: space-between;
     width: 1000px;
 }
+.sl{
+    background-image: url("image copy.png");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;
+    height: 400px;
+    width: 400px;
+    animation: animate infinite 10s ease-out;
+}
+@keyframes animate{
+    33%{
+        background-image: url("360_F_388979227_lKgqMJPO5ExItAuN4tuwyPeiknwrR7t2.jpg");
+    }
+    66%{
+        background-image: url("6568e143bfb754040027326a_Indian Student Mobility in 2023.jpg");
+    }
+    99%{
+        background-image: url("image copy.png")
+    }
+}
+
 .d2{
     display: flex;
     flex-direction: row;

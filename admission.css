@@ -55,6 +55,10 @@
 .d1_1,.d1_2{
     height: 400px;
     width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .d1_2{
     align-items: center;
