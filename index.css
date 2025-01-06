@@ -1,4 +1,24 @@
 
+.n1{
+    color: white;
+    text-decoration: none;
+  
+  }
+ 
+.n3,.n2,.n4{
+    color: red;
+    text-decoration: none;
+}
+
+.N1{
+    background-color: red;
+    color: white;
+    scale:1.2;
+    box-shadow: red 0 0 20px;
+    transform:translateY(-3px);
+  
+}
+
 .dc{
     align-items: center;
     display: flex;

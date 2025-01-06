@@ -1,36 +1,10 @@
-.dl{
-background-color: black;
-color: white;
-border-radius: 50px;
-border: solid white 1px;
-width: 100px;
-height: 30px;
-margin-top: 30px;
-}
-.ld{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    border-radius: 50px;
-    border: solid rgb(0, 0, 0) 1px;
-    width: 100px;
-height: 30px;
-margin-top: 30px;
-}
-.nav{
-    display: flex;
-    justify-content: space-around;
-}
+
 .Nav{
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
     margin-bottom: 30px;
     width: 800px;
-}
-.n1{
-  color: white;
-  text-decoration: none;
-
 }
 .Nav div{
     margin-left: 100px;
@@ -40,10 +14,6 @@ margin-top: 30px;
     transition: .3s ease-in-out;
     
 }
-.n3,.n2,.n4{
-    color: red;
-    text-decoration: none;
-}
 .Nav div:hover{
     background-color: red;
     color: white;
@@ -52,17 +22,33 @@ margin-top: 30px;
     transform:translateY(-3px);
 
 }
-.N1{
-    background-color: red;
-    color: white;
-    scale:1.2;
-    box-shadow: red 0 0 20px;
-    transform:translateY(-3px);
-  
-}
-.Nav li a:hover{
+.Nav div a:hover{
     color: white;
 }
+.dl{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border: solid white 1px;
+    width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    }
+    .ld{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 50px;
+        border: solid rgb(0, 0, 0) 1px;
+        width: 100px;
+    height: 30px;
+    margin-top: 30px;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
 @media(max-width:1000px){
     .Nav{
         display: grid;
