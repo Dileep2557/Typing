@@ -25,10 +25,17 @@
 <script>
   function darkMode(){
     let element=document.body;
-    element.style.color="white"
-    element.style.backgroundColor="black"
+    let dm=document.getElementById("dm").style.boxShadow="0 0 20px red";
+    let lm=document.getElementById("lm").style.boxShadow="";
+      let sm=document.getElementById("sm");
+      sm.style.color="white";
+    element.style.color="white";
+    element.style.backgroundColor="black";
+    
   }
   function lightMode(){
+    let dm=document.getElementById("dm").style.boxShadow="";
+    let lm=document.getElementById("lm").style.boxShadow="0 0 20px red";
     let element=document.body;
     element.style.color="black"
     element.style.backgroundColor="white"
