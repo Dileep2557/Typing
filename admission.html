@@ -16,29 +16,36 @@
         <div class="N3"><a class="n3" href="research.html">Research</a></div>
         <div class="N4"><a class="n4" href="contact_us.html">Contact Us</a></div>
         </div>
-    <div>
-        <button class="dl" onclick="darkMode()"> Dark mode</button>
-        <button class="ld" onclick="lightMode()">Light mode</button>
-      </div>
-      <script>
-        function darkMode(){
-          let element=document.body;
-          let dm=document.getElementById("dm").style.boxShadow="0 0 20px red";
-          let lm=document.getElementById("lm").style.boxShadow="";
-            let sm=document.getElementById("sm");
-            sm.style.color="white";
-          element.style.color="white";
-          element.style.backgroundColor="black";
-          
-        }
-        function lightMode(){
-          let dm=document.getElementById("dm").style.boxShadow="";
-          let lm=document.getElementById("lm").style.boxShadow="0 0 20px red";
-          let element=document.body;
-          element.style.color="black"
-          element.style.backgroundColor="white"
-        }
-      </script>
+        <div>
+            <button class="dl" id="dm" onclick="darkMode()">Dark mode</button>
+            <button class="ld" id="lm" onclick="lightMode()">Light mode</button>
+        </div>
+        
+        <script>
+            function darkMode() {
+                let element = document.body;
+                let dmButton = document.getElementById("dm");
+                let lmButton = document.getElementById("lm");
+                element.style.color = "white";
+                element.style.backgroundColor = "black";
+n
+                dmButton.style.boxShadow = "0 0 20px red";
+                lmButton.style.boxShadow = "";
+            }
+        
+            function lightMode() {
+                let element = document.body;
+                let dmButton = document.getElementById("dm");
+                let lmButton = document.getElementById("lm");
+        
+                element.style.color = "black";
+                element.style.backgroundColor = "white";
+   
+                lmButton.style.boxShadow = "0 0 20px red";
+                dmButton.style.boxShadow = "";
+            }
+        </script>
+        
 </nav>
     <div class="dc">
         <div class="d1">
